@@ -3,6 +3,8 @@ class Hello {
     long var = 10l;
     double d = var;
     float f = var;
-    System.out.print(f);
+    short s = 65;
+    char c = (char) s;
+    System.out.print(c);
   }
 }
